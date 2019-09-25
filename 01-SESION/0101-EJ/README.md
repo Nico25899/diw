@@ -15,7 +15,7 @@ div{
 }
 ```
 Como podemos ver, la  caja aumentó de 20rem a 30 rem + 40 px, para que en vez de expanderse, hacer que se mantenga en 20 rem, añadimos el box-sizing:
-´´´
+```
 div{
     box-sizing: border-box;
     width: 20rem;
