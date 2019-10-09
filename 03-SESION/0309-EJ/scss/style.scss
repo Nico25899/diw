@@ -1,0 +1,16 @@
+section{
+    background-color: deepskyblue;
+    padding: 2rem;
+    margin: 2rem;
+    article{
+        background-color: white;
+        color: deepskyblue;
+        padding: 1em;
+    }
+}
+#columns-inline-block{
+    article{
+        display: inline-block;
+        width: 25%;
+    }
+}

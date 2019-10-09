@@ -1,0 +1,48 @@
+nav {
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    color: white;
+    // padding: 2em 0; // Solo para ver el menu dentro de su contenedor
+    ul {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        li {
+            display: table-cell;
+            text-align: center;
+            a{
+                border: 1px solid;
+                padding: 2em;
+                display: block;
+        //       &:hover{
+          //          background-color: rgba(0, 255, 0, 0.288);
+          //      }
+            }
+        }
+    }
+}
+.border{
+    ul{
+       // border-collapse: collapse;
+        border-spacing: .5em 1em;
+
+    }
+    li{
+        border: 2px solid white;
+        border-collapse: collapse;
+        //border-radius: .5em;
+    }
+}
+
+.center{
+    background-color: transparent;
+    color: salmon;
+    li{
+        border: 1px solid deepskyblue;
+        width: 15rem;
+    }
+    ul{
+        width: auto;
+        margin: 0 auto;
+    }
+}

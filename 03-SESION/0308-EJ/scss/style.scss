@@ -1,0 +1,33 @@
+nav {
+    border-top: 10px solid orange;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: black;
+    // padding: 2em 0; // Solo para ver el menu dentro de su contenedor
+    ul {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        li {
+            display: table-cell;
+            text-align: center;
+            
+            a{
+                //border: 1px solid;
+                padding: 2em;
+                display: inline-block;
+                transition: border-bottom 1s ease;
+                border-bottom: 4px solid transparent;
+                &:hover{
+                    border-bottom: 4px solid black;
+                    
+                }
+            }
+        }
+    }
+}
+main{
+    background-color: rgb(202, 199, 199);
+    width: 100%;
+    height: 12rem;
+}
